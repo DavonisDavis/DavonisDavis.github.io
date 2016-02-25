@@ -77,12 +77,33 @@ FONTS
 
 /**********************************
 COLORS and BACKGROUNDS
-Color 1: #eee
-Color 1:
-Color 1:
-Color 1:
-Color 1:
+Color 1:#6A86B4
+Color 1:#F88D1D
+Color 1:#173C11
+Color 1:#EAE4E4
+Color 1:#1C4559
 ***********************************/
+
+body {
+    background:#6A86B4;
+}
+
+.navbar {
+    background:#173C11;
+}
+
+#bs-example-navbar-collapse-1 > ul:nth-child(1) >.active > a , footer{
+    background:#FF712C;
+}
+
+.jumbotron{
+    background:#FFF6C5;
+}
+
+.jumbotron h1 {
+    color:#F88D1D;
+}
+
 
 article{
     background:#eee;
@@ -93,10 +114,10 @@ footer{
 }
 
 .jumbotron{
-  background: url('https://picjumbo.imgix.net/HNCK8910.jpg?q=40&w=1650&sharp=30') no-repeat center;
+  background: url(http://wallpapercave.com/wp/zh9ePPZ.jpg) no-repeat center;
   background-size: cover;
 }
 
 .portrait_name{
-    background: rgba(230, 230, 230, 0.7);
+  background-color:#148ACC;
 }
